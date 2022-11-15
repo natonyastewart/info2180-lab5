@@ -17,22 +17,8 @@ window.onload = country;
             context = "";
         }
 
-        /*fetch(`http://localhost/info2180-lab5/world.php = ${countries} &context = ${context}`)
-        .then(response => {
-            if (response.ok) {
-                return response.text()
-            } else {
-                throw new Error ("There was a problem with the request");
-            }
-        })
-        .then(data => { 
-            result.innerHTML = "";
-            result.innerHTML = data; 
-        })
-        .catch(error => {
-            console.log(error);
-        });
-*/
+        fetch(`http://localhost/info2180-lab5/world.php = ${countries} &context = ${context}`)
+        //
 
     });
 };
